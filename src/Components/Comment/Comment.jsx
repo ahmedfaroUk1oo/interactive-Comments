@@ -111,7 +111,7 @@ export default function Comment({
       </div>
       <div className="col-md-11">
         <div className="info d-flex justify-content-between align-items-center flex-wrap">
-          <div className="name d-flex justify-content-start align-items-center">
+          <div className="name d-flex justify-content-start align-items-center flex-wrap">
             <img
               src={comment.user.image}
               alt=""
@@ -127,7 +127,7 @@ export default function Comment({
             )}
             <Time />
           </div>
-          <div className="comment-actions d-flex align-items-center">
+          <div className="comment-actions d-flex align-items-center flex-wrap">
             {canReply && (
               <div
                 className="comment-action fw-bold me-4"
